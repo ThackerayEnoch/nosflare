@@ -19,10 +19,6 @@ database_id = "e9ad64fa-ed9b-4382-978e-7939ff871f3e"
 [triggers]
 crons = ["0 0 * * *"]
 
-# CPU limits (lower to 10 if not on paid Workers plan)
-[limits]
-cpu_ms = 10
-
 # Enable logs (off by default, but can enable)
 [observability.logs]
 enabled = false
